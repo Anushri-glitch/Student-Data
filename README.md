@@ -356,28 +356,58 @@ public interface IBookRepository extends JpaRepository<AuthenticationToken,Long>
 ## :six: Generated API's
 
 :white_check_mark: SAVE STUDENT - http://localhost:8081/studentMod/student
-:white_check_mark:
-:white_check_mark:
-:white_check_mark:
-:white_check_mark:
-:white_check_mark:
-:white_check_mark:
+
+:white_check_mark: GET STUDENT - http://localhost:8081/studentMod/studentA
+
+:white_check_mark: GET STUDENT BY ID - http://localhost:8081/studentMod/student
+
+:white_check_mark: UPDATE STUDENT - http://localhost:8081/studentMod/student
+
+:white_check_mark: DELETE STUDENT - http://localhost:8081/studentMod/student
+
+:white_check_mark: SAVE LAPTOP - http://localhost:8081/laptopMod/saveLaptop
+
+:white_check_mark: GET LAPTOP BY ID - http://localhost:8081/laptopMod/getLaptop?laptopId={id}&studentId={id}
+
+:white_check_mark: UPDATE LAPTOP - http://localhost:8081/laptopMod/getLaptop?laptopId={id}
+
+:white_check_mark: DELETE LAPTOP - http://localhost:8081/laptopMod/getLaptop?laptopId={id}
+
+:white_check_mark: SAVE COURSE - http://localhost:8081/course/saveCourse
+
+:white_check_mark: GET COURSE - http://localhost:8081/course/getCourse?studentId={id}&courseId={id}
+
+:white_check_mark: UPDATE COURSE - http://localhost:8081/course/updateCourse?courseId={id}
+
+:white_check_mark: DELETE COURSE - http://localhost:8081/course/deleteCourse?courseId={id}
+
+:white_check_mark: SAVE BOOK -  http://localhost:8081/book/saveBook
+
+:white_check_mark: GET BOOK -  http://localhost:8081/book/getBook?studentId={id}&bookId={id}
+
+:white_check_mark: UPDATE BOOK -  http://localhost:8081/book/updateBook?bookId={id}
+
+:white_check_mark: DELETE BOOK -  http://localhost:8081/book/deleteBook?bookId={id}
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## :seven: Project Summary
-### :o: Project result 
-#### :purple_square: USER SIGNUP : http://localhost:8080/api/v1/userApp/signup
-![Screenshot (801)](https://github.com/Anushri-glitch/InstagramApp/assets/47708011/9659b502-3911-4b59-8f07-b283a84322e7)
+## :seven: Project Result
+### :o: Student Response
 
-#### :purple_square: USER SIGNIN : http://localhost:8080/api/v1/userApp/signIn
-![Screenshot (802)](https://github.com/Anushri-glitch/InstagramApp/assets/47708011/0e78c90b-f79b-4097-a266-93b845924460)
+![Screenshot (805)](https://github.com/Anushri-glitch/Student-Data/assets/47708011/0a2227a0-f57b-4496-ab8b-8535701d053b)
+![Screenshot (806)](https://github.com/Anushri-glitch/Student-Data/assets/47708011/298f2e20-90ec-4706-9061-f08fd61c5c67)
+![Screenshot (807)](https://github.com/Anushri-glitch/Student-Data/assets/47708011/87c32bfa-f332-428f-aee2-0826c7d2e06a)
+![Screenshot (808)](https://github.com/Anushri-glitch/Student-Data/assets/47708011/c705a5dc-5941-4948-906b-5fcb2cfc3de5)
 
-#### :purple_square: UPDATE USER : http://localhost:8080/api/v1/userApp/updateUser/1
-![Screenshot (803)](https://github.com/Anushri-glitch/InstagramApp/assets/47708011/05fd46cc-6ba6-4f31-9be0-f3f610665ac6)
+### :o: Laptop Response
 
-#### :purple_square: SAVE POST : http://localhost:8080/post
-![Screenshot (804)](https://github.com/Anushri-glitch/InstagramApp/assets/47708011/0e90699c-5f34-4671-ad28-81ea505e6c0b)
+![Screenshot (809)](https://github.com/Anushri-glitch/Student-Data/assets/47708011/52ea3c0b-c172-4f2d-9668-6bde7dd3616f)
+![Screenshot (810)](https://github.com/Anushri-glitch/Student-Data/assets/47708011/d0b50a30-d41b-459c-aee3-deca9f985024)
+![Screenshot (811)](https://github.com/Anushri-glitch/Student-Data/assets/47708011/4536725f-e8d6-439a-83ea-0236e8f815b6)
+![Screenshot (812)](https://github.com/Anushri-glitch/Student-Data/assets/47708011/8e2fcf36-0339-48ea-9f41-df0069a7da54)
+
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
